@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.shit {
+    font-size: 30px;
+}
+
+#logo {
+    width: 175px;
+    display: inline;
+    margin-left: 15%;
+    margin-top: -10px;
+}
+
+h1, h2, h3, h1 {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+p, input {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#SignUp, p, h3 {
+    color: #424242;
+    text-align: left;
+}
+
+#SignUp {
+    font-size: 45px;
+    margin-bottom: -5px;
+    margin-top: 15px;
+}
+
+hr {
+    color: white;
+}
+
+#header {
+    width: 100%;
+    background-color: RGBa(255, 255, 255, 0.6); 
+    height: 80px;
+}
+
+#main {
+    margin-top: -20px;
+    width: 100%;
+    height: 100vh;
+    /*background-color: aqua; */
+}
+
+div#left, div#right {
+    height: 250px;
+    width: 200px;
+    margin-top: 175px;
+    background-color: RGBa(255, 255, 255, 0.7); 
+    font-size: 20px;
+}
+
+div#mid {
+    height: 350px;
+    width: 500px;
+    margin: 20px;
+    margin-top: 120px;
+    background-color: RGBa(255, 255, 255, 0.9); 
+}
+
+div#left, div#right, div#mid {
+    padding: 15px;
+    border-radius: 2px;
+    z-index: 1;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+form#logIn {
+    margin-left: 60%;
+    padding-top: 25px;
+}
+
+input[name="email"], input[name="pass"], input[name ="login"] {
+    border-radius: 3px;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -88px;
+    padding: 3px 10px;
+}
+
+input[name ="login"] {
+    padding: 1.5px 20px;
+}
+
+input[name="first"] {
+    margin-right: 10px;
+}
+
+input[name="first"], input[name="last"] {
+    border-radius: 3px;
+    font-size: 24px;
+    display: inline;
+    width: 243px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+input[name="emailLog"], input[name="pass1"], input[name="pass2"] {
+    border-radius: 3px;
+    font-size: 24px;
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+input[name="signup"] {
+    border-radius: 3px;
+    font-size: 24px;
+    width: 200px;
+    float: left;
+    padding: 5px 10px;
+}
+
+input[type="submit"] {
+    background-color: #444444;
+    color: white;
+}
+
+input {
+    border: solid 1px #ADADAD;
+}
+
+/* Video Background */
+.fullVid {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;   
+}
+
+#videoWrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullVid {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullVid {
+    width: auto;
+    height: 100%;
+  }
+}
+/* Video Background */
